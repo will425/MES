@@ -630,7 +630,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable group
 drawable ic_adb_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -648,6 +647,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable sf_logo
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -689,8 +689,10 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id chart
 id checkbox
 id chronometer
+id circleGraphButton
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -727,6 +729,7 @@ id italic
 id left
 id line1
 id line3
+id lineGraphButton
 id listMode
 id list_item
 id loginButton
@@ -745,6 +748,7 @@ id parent
 id parentPanel
 id passwordText
 id percent
+id piechart
 id progress_circular
 id progress_horizontal
 id radio
@@ -836,6 +840,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_circle_graph
+layout activity_line_graph
 layout activity_login
 layout activity_main
 layout activity_register

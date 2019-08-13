@@ -22,7 +22,7 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
-                android:src="@drawable/sfLogo" />
+                android:src="@drawable/sf_logo" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -31,8 +31,7 @@
                 android:text="스 마 트 공 장"
                 android:textColor="#ffffff"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"/>
+                android:textStyle="bold"                android:layout_marginTop="10dp"/>
 
         </LinearLayout>
 

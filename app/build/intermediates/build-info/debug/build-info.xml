@@ -2,30 +2,32 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.4.2"
-    timestamp="1565675457394"
+    timestamp="1565679944149"
     token="878041215081830813"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1306" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="147" />
+        duration="1317" />
     <task
         name="verifier"
-        duration="76" />
+        duration="1819" />
 
     <artifact
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -37,19 +39,19 @@
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -57,10 +59,13 @@
     <artifact
         location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1565675218824"
+        timestamp="1565679944149"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -69,13 +74,16 @@
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -84,16 +92,13 @@
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -101,45 +106,6 @@
         <artifact
             location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1565675457394"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\will4\Downloads\Android\Jcast_MES\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

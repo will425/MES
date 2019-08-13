@@ -34,7 +34,29 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <Button
+                android:id="@+id/lineGraphButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="선 그래프"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/circleGraphButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="원 그래프"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
