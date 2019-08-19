@@ -96,6 +96,26 @@
                 android:background="@color/colorPrimary"/>
 
             <EditText
+                android:id="@+id/password2Text"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="비밀번호 확인"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/idText"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:background="@color/colorPrimary"/>
+
+            <EditText
                 android:id="@+id/nameText"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"

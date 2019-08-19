@@ -17,14 +17,14 @@ import java.util.ArrayList;
 
 public class CircleGraphActivity extends AppCompatActivity {
 
-    PieChart pieChart;
+    private PieChart pieChart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_circle_graph);
 
-        pieChart = (PieChart)findViewById(R.id.piechart);
+        pieChart = (PieChart) findViewById(R.id.piechart);
 
         pieChart.setUsePercentValues(true);
         pieChart.getDescription().setEnabled(false);
@@ -62,6 +62,5 @@ public class CircleGraphActivity extends AppCompatActivity {
         data.setValueTextColor(Color.YELLOW);
 
         pieChart.setData(data);
-
     }
 }

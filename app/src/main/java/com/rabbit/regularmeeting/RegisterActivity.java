@@ -2,15 +2,11 @@ package com.rabbit.regularmeeting;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.OnLifecycleEvent;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -34,6 +30,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         final EditText idText = (EditText) findViewById(R.id.idText);
         final EditText passwordText = (EditText) findViewById(R.id.passwordText);
+        final EditText password2Text = (EditText) findViewById(R.id.password2Text);
         final EditText nameText = (EditText) findViewById(R.id.nameText);
 
         final Button validateButton = (Button) findViewById(R.id.validateButton);
@@ -105,6 +102,7 @@ public class RegisterActivity extends AppCompatActivity {
             {
                 String userID = idText.getText().toString();
                 String userPassword = passwordText.getText().toString();
+                String userPassword2 = password2Text.getText().toString();
                 String userName = nameText.getText().toString();
 
                 if(!validate)
@@ -120,7 +118,17 @@ public class RegisterActivity extends AppCompatActivity {
                 if(userID.equals("") || userPassword.equals("") || userName.equals(""))
                 {
                     AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
-                    dialog = builder.setMessage("빈 칸 없이 작성해 주세요..")
+                    dialog = builder.setMessage("빈 칸 없이 작성해 주세요.")
+                            .setNegativeButton("확인", null)
+                            .create();
+                    dialog.show();
+                    return;
+                }
+
+                if(!userPassword.equals(userPassword2))
+                {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
+                    dialog = builder.setMessage("비밀번호를 확인해 주세요.")
                             .setNegativeButton("확인", null)
                             .create();
                     dialog.show();
