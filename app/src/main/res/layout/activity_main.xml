@@ -58,6 +58,30 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/circleGraphdPolyButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="원 폴리 그래프"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/barGraphButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="바 그래프"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
         </LinearLayout>
 
     </LinearLayout>

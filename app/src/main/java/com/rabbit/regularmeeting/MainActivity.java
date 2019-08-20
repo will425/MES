@@ -32,9 +32,29 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                //Intent circleGraphIntent = new Intent(MainActivity.this, CircleGraphActivity.class);
-                //MainActivity.this.startActivity(circleGraphIntent);
                 Intent intent = new Intent(getApplicationContext(), CircleGraphActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button circleGraphdPolyButton = (Button) findViewById(R.id.circleGraphdPolyButton);
+        circleGraphdPolyButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(getApplicationContext(), CircleGraphPolyActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button barGraphButton = (Button) findViewById(R.id.barGraphButton);
+        barGraphButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(getApplicationContext(), BarGraphActivity.class);
                 startActivity(intent);
             }
         });

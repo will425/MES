@@ -22,6 +22,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name="com.rabbit.regularmeeting.CircleGraphPolyActivity" />
+        <activity android:name="com.rabbit.regularmeeting.BarGraphActivity" />
         <activity android:name="com.rabbit.regularmeeting.CircleGraphActivity" />
         <activity android:name="com.rabbit.regularmeeting.LineGraphActivity" />
         <activity android:name="com.rabbit.regularmeeting.RegisterActivity" />

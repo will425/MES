@@ -680,6 +680,7 @@ id alertTitle
 id all
 id always
 id async
+id barGraphButton
 id barrier
 id beginning
 id blocking
@@ -693,6 +694,7 @@ id chart
 id checkbox
 id chronometer
 id circleGraphButton
+id circleGraphdPolyButton
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -750,6 +752,7 @@ id password2Text
 id passwordText
 id percent
 id piechart
+id piepolychart
 id progress_circular
 id progress_horizontal
 id radio
@@ -783,6 +786,7 @@ id spread_inside
 id src_atop
 id src_in
 id src_over
+id stacked_BarChart
 id standard
 id start
 id submenuarrow
@@ -795,6 +799,9 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView_list_address
+id textView_list_id
+id textView_list_name
 id time
 id title
 id titleDividerNoCustom
@@ -841,11 +848,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_bar_graph
 layout activity_circle_graph
+layout activity_circle_graph_poly
 layout activity_line_graph
 layout activity_login
 layout activity_main
 layout activity_register
+layout item_list
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
